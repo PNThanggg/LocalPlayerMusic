@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="fontWeight" format="integer" />
+        <attr name="underLine" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="hpb_colorBackground" format="color" />
+        <attr name="hpb_colorProgress" format="color" />
+        <attr name="hpb_progress" format="integer" />
+        <attr name="hpb_useRoundRect" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomButton">
+        <attr name="Name" format="string" />
+        <attr name="Image" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="EditButton">
+        <attr name="image_edit" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MoreButtonHorizontal">
+        <attr name="buttonText" format="string" />
+        <attr name="buttonImage" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MoreButtonVertical">
+        <attr name="btnMoreName" format="string" />
+        <attr name="btnMoreImage" format="reference" />
+        <attr name="fontSize" format="integer" />
+        <attr name="textColor" format="color" />
+        <attr name="textColorActive" format="color" />
+        <attr name="btnMoreImageActive" format="reference" />
+        <attr name="isActive" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderView">
+        <attr name="titleText" format="string" />
+        <attr name="showRightAction" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="HeaderViewContent">
+        <attr name="titleTextContent" format="string" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="showAction" format="boolean" />
+        <attr name="firstAction" format="reference" />
+        <attr name="secondAction" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShadowLayout">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="shadowRadius2" format="dimension" />
+        <attr name="shadowColor" format="color" />
+        <attr name="dx" format="dimension" />
+        <attr name="dy" format="dimension" />
+    </declare-styleable>
+
+    <attr name="item.checkCircle.backgroundColor" format="reference|color" />
+    <attr name="item.checkCircle.borderColor" format="reference|color" />
+</resources>
